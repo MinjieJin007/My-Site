@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', sans-serif;
@@ -17,6 +18,8 @@ h2 {
   font-size: 2.5rem;
   color: #66BFBF;
   font-weight: normal;
+  padding-bottom: 10px;
+
 }
 
 h3 {
@@ -27,6 +30,7 @@ h3 {
 
 p {
   font-size: 0.8rem;
+  line-height: 2;
 }
 
 .top-container {
@@ -36,35 +40,39 @@ p {
 }
 
 hr {
-    width: 5%;
-    border-style: dotted none none;
-    border-width: 5px;
-    border-color: grey;
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 .middle-container {
-  padding: 50px;
+
 }
 
 .contact-me {
   line-height: 2;
+  padding-bottom: 30px;
 }
 
 .bottom-container {
   font-size: 1rem;
-  padding: 30px;
+  padding: 50px 0 20px;
   background-color: #66BFBF;
 }
 
-.bottom-container p {
-  font-size: 0.5rem;
-  color: #EAF6F6;
-  margin: 30px;
-}
 
-.bottom-container a {
-  text-decoration: none;
-}
 
 .skill-row {
   width: 50%;
@@ -74,7 +82,7 @@ hr {
 }
 
 .profile {
-  width: 30%;
+
   margin: auto;
   text-align: center;
   line-height: 2;
@@ -85,16 +93,32 @@ hr {
   text-decoration: underline;
 }
 
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .taekwondo-image {
@@ -119,6 +143,7 @@ hr {
   border-radius: 50%;
   width: 150px;
   height: 200px;
+  margin-top: 30px;
 }
 
 .btn {
@@ -131,7 +156,7 @@ hr {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
